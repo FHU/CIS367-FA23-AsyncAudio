@@ -534,13 +534,32 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
+.m-2 {
+  margin: 0.5rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.m-3 {
+  margin: 0.75rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .underline {
